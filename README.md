@@ -1,4 +1,4 @@
-# MpAnalysis.Y1
+# MPYanalysis
 An approach to accurately genotype STR and SNP using the multiplex PCR data and implement automatic conversion of CODIS system to STR.
 
 # Extra SNP or STR locus
@@ -7,8 +7,8 @@ Apart from the CODIS locus information that we provided yet, a custom set of SNP
 ## Installation
 To install, first download and unpack the newest release from GitHub:
 
-    $ git clone https://github.com/MpAnalysisY1/MpAnalysis.Y1.git
-    $ cd MpAnalysis.Y1
+    $ git clone https://github.com/MpAnalysisY1/MPYanalysis.git
+    $ cd MPYanalysis
 
 To compile, run:
 
@@ -18,9 +18,9 @@ To compile, run:
 
 To get help, run:
 
-    $ python MpAnalysis.Y1.py --help
+    $ python MPYanalysis.py --help
 
-    Usage: MpAnalysis.Y1.py [options]
+    Usage: MPYanalysis.py [options]
 
     Options:
       -h, --help            show this help message and exit
@@ -47,4 +47,4 @@ To get help, run:
                         
 To genotype STR and SNP without adapter trimming, run:
 
-    $ python MpAnalysis.Y1.py -I input.list -O outdir
+    $ python MPYanalysis.py -I input.list -O outdir
