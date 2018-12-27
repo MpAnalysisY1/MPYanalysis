@@ -1,6 +1,9 @@
 # MpAnalysis.Y1
 An approach to accurately genotype STR and SNP using the multiplex PCR data and implement automatic conversion of CODIS system to STR.
 
+# Extra SNP or STR locus
+Apart from the CODIS locus information that we provided yet, a custom set of SNP/STR loci is also supported by MpAnalysis.Y1. For those loci that users are interested in, the target sequences in the same direction (at least 30bp non-homologous regions before and after the locus) are required. Besides, a corresponding internal reference containing sequence of repeats and the number of repeats units on the hg38 genome are necessary for each locus. For details, see the reference files uploaded already.
+
 ## Installation
 To install, first download and unpack the newest release from GitHub:
 
